@@ -1,23 +1,23 @@
 {
-	{
-		"HTML Karkasas su komentarais": {
-			"prefix": "manohtml",
-			"body": [
-				"<!-- Jonas Kučinskas EIF-23 -->",
-				"<!DOCTYPE html>",
-				"<html lang=\"lt\">",
-				"<head>",
-				"    <meta charset=\"UTF-8\">",
-				"    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
-				"    <title>${1:Tavo puslapio pavadinimas}</title>",
-				"</head>",
-				"<body>",
-				"    <p>${2:Sveiki atvykę į mano puslapį!}</p>",
-				"</body>",
-				"</html>"
-			],
-			"description": "HTML karkasas su komentarais"
-		}
-	}
-	
+"HTML Dokumentas su Meta ir Link": {
+	"prefix": "manohtml",
+	"body": [
+		"<!-- Kūrėjas: Tavo Vardas, Pavardė -->",
+		"<!DOCTYPE html>",
+		"<html lang=\"lt\">",
+		"<head>",
+		"    <meta charset=\"UTF-8\">",
+		"    <meta name=\"description\" content=\"Trumpas puslapio aprašymas\">",
+		"    <meta name=\"keywords\" content=\"HTML, CSS, programavimas\">",
+		"    <meta name=\"author\" content=\"Tavo Vardas\">",
+		"    <link rel=\"stylesheet\" href=\"style.css\">",
+		"    <title>${1:Puslapio pavadinimas}</title>",
+		"</head>",
+		"<body>",
+		"    ${2:<!-- Turinys čia -->}",
+		"</body>",
+		"</html>"
+	],
+	"description": "HTML dokumentas su lietuviška koduote ir papildomomis meta bei link žymėmis"
+}
 }
