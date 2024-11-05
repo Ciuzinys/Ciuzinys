@@ -1,0 +1,23 @@
+{
+	{
+		"HTML Karkasas su komentarais": {
+			"prefix": "manohtml",
+			"body": [
+				"<!-- Jonas Kučinskas EIF-23 -->",
+				"<!DOCTYPE html>",
+				"<html lang=\"lt\">",
+				"<head>",
+				"    <meta charset=\"UTF-8\">",
+				"    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+				"    <title>${1:Tavo puslapio pavadinimas}</title>",
+				"</head>",
+				"<body>",
+				"    <p>${2:Sveiki atvykę į mano puslapį!}</p>",
+				"</body>",
+				"</html>"
+			],
+			"description": "HTML karkasas su komentarais"
+		}
+	}
+	
+}
