@@ -1,0 +1,23 @@
+{
+	
+		"snippet": {
+			"prefix": "manoSnippet",
+			"body": [
+				"<!DOCTYPE html>",
+				"<html lang=\"en\">",
+				"<!-- EIf-23 Domas Ščelys -->",
+				"<head>",
+				"    <meta charset=\"UTF-8\">",
+				"    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+				"    <title>$1</title>",
+				"    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">",
+				"</head>",
+				"<body>",
+				"    $2",
+				"</body>",
+				"</html>"
+			],
+			"description": "Mano html snippet"
+		}
+	
+}
